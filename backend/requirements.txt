@@ -1,0 +1,6 @@
+flask==3.0.3
+pymongo==4.8.0
+numpy
+trimesh
+mongomock
+flask-cors==6.0.5

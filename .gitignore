@@ -1,0 +1,30 @@
+# Virtual environment — machine-specific, huge, and pointless to share.
+venv/
+.venv/
+
+# Python bytecode cache — regenerated automatically, not source.
+__pycache__/
+*.pyc
+
+# Node modules — same idea as venv/, but for the frontend once it exists.
+node_modules/
+
+# Environment variables / secrets — MONGO_URI, API keys, etc.
+.env
+.env.local
+
+# Uploaded patient photos — don't let these ever reach git.
+uploads/
+*.png
+*.jpg
+*.jpeg
+
+# Generated mesh files — build output, not source, once real SMPL exists.
+*.gltf
+*.glb
+*.bin
+
+# Editor/OS noise
+.vscode/
+.DS_Store
+Thumbs.db
